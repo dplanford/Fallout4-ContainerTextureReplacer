@@ -1,0 +1,1441 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
+<moduleName>Fallout 4 Container Texture Replacer v3.1.1</moduleName>
+<moduleImage path="FOMod\images\willopus_logo.png"/>
+	<installSteps order="Explicit">
+		<installStep name="Suitcase Texture Options">
+			<optionalFileGroups>
+				<group name="Suitcase Textures" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="Vanilla">
+							<description>
+								<![CDATA[Pick this option for the Vanilla texture (no texture swap).]]>
+							</description>
+							<files>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Artsy">
+							<description>
+								<![CDATA[Pick this option for the Artsy texture.]]>
+							</description>
+							<image path="FOMod\images\Suitcases\artsy.png"/>
+							<files>
+								<file source="Textures\Suitcases\WD_AVOC_Artsy_d.dds" destination="Textures\SetDressing\Suitcase\Suitcase_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Beaten Leather">
+							<description>
+								<![CDATA[Pick this option for the Beaten Leather texture.]]>
+							</description>
+							<image path="FOMod\images\Suitcases\beaten_leather.png"/>
+							<files>
+								<file source="Textures\Suitcases\WD_AVOC_Beaten_Leather_d.dds" destination="Textures\SetDressing\Suitcase\Suitcase_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Big Flowers">
+							<description>
+								<![CDATA[Pick this option for the Big Flowers texture.]]>
+							</description>
+							<image path="FOMod\images\Suitcases\big_flowers.png"/>
+							<files>
+								<file source="Textures\Suitcases\WD_AVOC_Big_Flowers_d.dds" destination="Textures\SetDressing\Suitcase\Suitcase_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Blue Checkered">
+							<description>
+								<![CDATA[Pick this option for the Blue Checkered texture.]]>
+							</description>
+							<image path="FOMod\images\Suitcases\blue_checkered.png"/>
+							<files>
+								<file source="Textures\Suitcases\WD_AVOC_Blue_Checkered_d.dds" destination="Textures\SetDressing\Suitcase\Suitcase_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Blue Wool">
+							<description>
+								<![CDATA[Pick this option for the Blue Wool texture.]]>
+							</description>
+							<image path="FOMod\images\Suitcases\blue_wool.png"/>
+							<files>
+								<file source="Textures\Suitcases\WD_AVOC_Blue_Wool_d.dds" destination="Textures\SetDressing\Suitcase\Suitcase_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Blue Yellow Checkered">
+							<description>
+								<![CDATA[Pick this option for the Blue Yellow Checkered texture.]]>
+							</description>
+							<image path="FOMod\images\Suitcases\blue_yellow_checkered.png"/>
+							<files>
+								<file source="Textures\Suitcases\WD_AVOC_Blue_Yellow_Checkered_d.dds" destination="Textures\SetDressing\Suitcase\Suitcase_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Dark Leather">
+							<description>
+								<![CDATA[Pick this option for the Dark Leather texture.]]>
+							</description>
+							<image path="FOMod\images\Suitcases\dark_leather.png"/>
+							<files>
+								<file source="Textures\Suitcases\WD_AVOC_Dark_Leather_d.dds" destination="Textures\SetDressing\Suitcase\Suitcase_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Embroidered">
+							<description>
+								<![CDATA[Pick this option for the Embroidered texture.]]>
+							</description>
+							<image path="FOMod\images\Suitcases\embroidered.png"/>
+							<files>
+								<file source="Textures\Suitcases\WD_AVOC_Embroidered_d.dds" destination="Textures\SetDressing\Suitcase\Suitcase_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Faded Tan">
+							<description>
+								<![CDATA[Pick this option for the Faded Tan texture.]]>
+							</description>
+							<image path="FOMod\images\Suitcases\faded_tan.png"/>
+							<files>
+								<file source="Textures\Suitcases\WD_AVOC_Faded_Tan_d.dds" destination="Textures\SetDressing\Suitcase\Suitcase_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Gator Skin">
+							<description>
+								<![CDATA[Pick this option for the Gator Skin texture.]]>
+							</description>
+							<image path="FOMod\images\Suitcases\gator_skin.png"/>
+							<files>
+								<file source="Textures\Suitcases\WD_AVOC_Gator_Skin_d.dds" destination="Textures\SetDressing\Suitcase\Suitcase_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Gator Skin (dirty)">
+							<description>
+								<![CDATA[Pick this option for the dirty Gator Skin texture.]]>
+							</description>
+							<image path="FOMod\images\Suitcases\gator_skin_dirty.png"/>
+							<files>
+								<file source="Textures\Suitcases\WD_AVOC_Gator_Skin_dirty_d.dds" destination="Textures\SetDressing\Suitcase\Suitcase_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Green Leather">
+							<description>
+								<![CDATA[Pick this option for the Green Leather texture.]]>
+							</description>
+							<image path="FOMod\images\Suitcases\green_leather.png"/>
+							<files>
+								<file source="Textures\Suitcases\WD_AVOC_Green_Leather_d.dds" destination="Textures\SetDressing\Suitcase\Suitcase_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Green Leather (dirty)">
+							<description>
+								<![CDATA[Pick this option for the dirty Green Leather texture.]]>
+							</description>
+							<image path="FOMod\images\Suitcases\green_leather_dirty.png"/>
+							<files>
+								<file source="Textures\Suitcases\WD_AVOC_Green_Leather_dirty_d.dds" destination="Textures\SetDressing\Suitcase\Suitcase_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Grey Fabric">
+							<description>
+								<![CDATA[Pick this option for the Grey Fabric texture.]]>
+							</description>
+							<image path="FOMod\images\Suitcases\grey_fabric.png"/>
+							<files>
+								<file source="Textures\Suitcases\WD_AVOC_Grey_Fabric_d.dds" destination="Textures\SetDressing\Suitcase\Suitcase_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Harvest Stripes">
+							<description>
+								<![CDATA[Pick this option for the Harvest Stripes texture.]]>
+							</description>
+							<image path="FOMod\images\Suitcases\harvest_stripes.png"/>
+							<files>
+								<file source="Textures\Suitcases\WD_AVOC_Harvest_Stripes_d.dds" destination="Textures\SetDressing\Suitcase\Suitcase_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Loose Weave">
+							<description>
+								<![CDATA[Pick this option for the Loose Weave texture.]]>
+							</description>
+							<image path="FOMod\images\Suitcases\loose_weave.png"/>
+							<files>
+								<file source="Textures\Suitcases\WD_AVOC_Loose_Weave_d.dds" destination="Textures\SetDressing\Suitcase\Suitcase_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Orange Flowers">
+							<description>
+								<![CDATA[Pick this option for the Orange Flowers texture.]]>
+							</description>
+							<image path="FOMod\images\Suitcases\orange_flowers.png"/>
+							<files>
+								<file source="Textures\Suitcases\WD_AVOC_Orange_Flowers_d.dds" destination="Textures\SetDressing\Suitcase\Suitcase_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Paisley">
+							<description>
+								<![CDATA[Pick this option for the Paisley texture.]]>
+							</description>
+							<image path="FOMod\images\Suitcases\paisley.png"/>
+							<files>
+								<file source="Textures\Suitcases\WD_AVOC_Paisley_d.dds" destination="Textures\SetDressing\Suitcase\Suitcase_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Plain Brown">
+							<description>
+								<![CDATA[Pick this option for the Plain Brown texture.]]>
+							</description>
+							<image path="FOMod\images\Suitcases\plain_brown.png"/>
+							<files>
+								<file source="Textures\Suitcases\WD_AVOC_Plain_Brown_d.dds" destination="Textures\SetDressing\Suitcase\Suitcase_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Purple Plaid">
+							<description>
+								<![CDATA[Pick this option for the Purple Plaid texture.]]>
+							</description>
+							<image path="FOMod\images\Suitcases\purple_plaid.png"/>
+							<files>
+								<file source="Textures\Suitcases\WD_AVOC_Purple_Plaid_d.dds" destination="Textures\SetDressing\Suitcase\Suitcase_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Red Flowers">
+							<description>
+								<![CDATA[Pick this option for the Red Flower texture.]]>
+							</description>
+							<image path="FOMod\images\Suitcases\red_flower.png"/>
+							<files>
+								<file source="Textures\Suitcases\WD_AVOC_Red_Flowers_d.dds" destination="Textures\SetDressing\Suitcase\Suitcase_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Tan Striped">
+							<description>
+								<![CDATA[Pick this option for the Tan Striped texture.]]>
+							</description>
+							<image path="FOMod\images\Suitcases\tan_striped.png"/>
+							<files>
+								<file source="Textures\Suitcases\WD_AVOC_Tan_Striped_d.dds" destination="Textures\SetDressing\Suitcase\Suitcase_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Yellow Checkered">
+							<description>
+								<![CDATA[Pick this option for the Yellow Checkered texture.]]>
+							</description>
+							<image path="FOMod\images\Suitcases\yellow_checkered.png"/>
+							<files>
+								<file source="Textures\Suitcases\WD_AVOC_Yellow_Checkered_d.dds" destination="Textures\SetDressing\Suitcase\Suitcase_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Nuka Cola">
+							<description>
+								<![CDATA[Pick this option for the Nuka Cola texture.]]>
+							</description>
+							<image path="FOMod\images\Suitcases\nuka_cola.png"/>
+							<files>
+								<file source="Textures\Suitcases\WD_AVOC_Nuka_Cola_d.dds" destination="Textures\SetDressing\Suitcase\Suitcase_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Cooler Texture Options">
+			<optionalFileGroups>
+				<group name="Cooler Textures" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="Vanilla">
+							<description>
+								<![CDATA[Pick this option for the Vanilla texture (no texture swap).]]>
+							</description>
+							<files>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="A Hot Mess">
+							<description>
+								<![CDATA[Pick this option for the A Hot Mess texture.]]>
+							</description>
+							<image path="FOMod\images\Coolers\a_hot_mess.png"/>
+							<files>
+								<file source="Textures\Coolers\WD_AVOC_A_Hot_Mess_d.dds" destination="Textures\SetDressing\Cooler\Cooler_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Color Splash">
+							<description>
+								<![CDATA[Pick this option for the Color Splash texture.]]>
+							</description>
+							<image path="FOMod\images\Coolers\color_splash.png"/>
+							<files>
+								<file source="Textures\Coolers\WD_AVOC_Color_Splash_d.dds" destination="Textures\SetDressing\Cooler\Cooler_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Gold Paint">
+							<description>
+								<![CDATA[Pick this option for the Gold Paint texture.]]>
+							</description>
+							<image path="FOMod\images\Coolers\gold_paint.png"/>
+							<files>
+								<file source="Textures\Coolers\WD_AVOC_Gold_Paint_d.dds" destination="Textures\SetDressing\Cooler\Cooler_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Hot Lips">
+							<description>
+								<![CDATA[Pick this option for the Hot Lips texture.]]>
+							</description>
+							<image path="FOMod\images\Coolers\hot_lips.png"/>
+							<files>
+								<file source="Textures\Coolers\WD_AVOC_Hot_Lips_d.dds" destination="Textures\SetDressing\Cooler\Cooler_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Orange Flower">
+							<description>
+								<![CDATA[Pick this option for the Orange Flower texture.]]>
+							</description>
+							<image path="FOMod\images\Coolers\orange_flower.png"/>
+							<files>
+								<file source="Textures\Coolers\WD_AVOC_Orange_Flower_d.dds" destination="Textures\SetDressing\Cooler\Cooler_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Painted">
+							<description>
+								<![CDATA[Pick this option for the Painted texture.]]>
+							</description>
+							<image path="FOMod\images\Coolers\painted.png"/>
+							<files>
+								<file source="Textures\Coolers\WD_AVOC_Painted_d.dds" destination="Textures\SetDressing\Cooler\Cooler_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Red With Skull">
+							<description>
+								<![CDATA[Pick this option for the Red With Skull texture.]]>
+							</description>
+							<image path="FOMod\images\Coolers\red_with_skull.png"/>
+							<files>
+								<file source="Textures\Coolers\WD_AVOC_Red_With_Skull_d.dds" destination="Textures\SetDressing\Cooler\Cooler_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Rusty">
+							<description>
+								<![CDATA[Pick this option for the Rusty texture.]]>
+							</description>
+							<image path="FOMod\images\Coolers\rusty.png"/>
+							<files>
+								<file source="Textures\Coolers\WD_AVOC_Rusty_d.dds" destination="Textures\SetDressing\Cooler\Cooler_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Textured">
+							<description>
+								<![CDATA[Pick this option for the Textured texture.]]>
+							</description>
+							<image path="FOMod\images\Coolers\textured.png"/>
+							<files>
+								<file source="Textures\Coolers\WD_AVOC_Textured_d.dds" destination="Textures\SetDressing\Cooler\Cooler_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Yellow">
+							<description>
+								<![CDATA[Pick this option for the Yellow texture.]]>
+							</description>
+							<image path="FOMod\images\Coolers\yellow.png"/>
+							<files>
+								<file source="Textures\Coolers\WD_AVOC_Yellow_d.dds" destination="Textures\SetDressing\Cooler\Cooler_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Nuka Girl">
+							<description>
+								<![CDATA[Pick this option for the Nuka Girl texture.]]>
+							</description>
+							<image path="FOMod\images\Coolers\nuka_girl.png"/>
+							<files>
+								<file source="Textures\Coolers\WD_AVOC_Nuka_Girl_d.dds" destination="Textures\SetDressing\Cooler\Cooler_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Duffle Bag Texture Options">
+			<optionalFileGroups>
+				<group name="Duffle Bag Textures" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="Vanilla">
+							<description>
+								<![CDATA[Pick this option for the Vanilla texture (no texture swap).]]>
+							</description>
+							<files>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Big Roses">
+							<description>
+								<![CDATA[Pick this option for the Big Roses texture.]]>
+							</description>
+							<image path="FOMod\images\DuffleBags\big_roses.png"/>
+							<files>
+								<file source="Textures\DuffleBags\WD_AVOC_Big_Roses_d.dds" destination="Textures\SetDressing\DuffleBag\DuffleBag_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Dark Denim">
+							<description>
+								<![CDATA[Pick this option for the Dark Denim texture.]]>
+							</description>
+							<image path="FOMod\images\DuffleBags\dark_denim.png"/>
+							<files>
+								<file source="Textures\DuffleBags\WD_AVOC_Dark_Denim_d.dds" destination="Textures\SetDressing\DuffleBag\DuffleBag_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Denim Patched">
+							<description>
+								<![CDATA[Pick this option for the Denim Patched texture.]]>
+							</description>
+							<image path="FOMod\images\DuffleBags\denim_patched.png"/>
+							<files>
+								<file source="Textures\DuffleBags\WD_AVOC_Denim_Patched_d.dds" destination="Textures\SetDressing\DuffleBag\DuffleBag_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Tree Camo">
+							<description>
+								<![CDATA[Pick this option for the Tree Camo texture.]]>
+							</description>
+							<image path="FOMod\images\DuffleBags\tree_camo.png"/>
+							<files>
+								<file source="Textures\DuffleBags\WD_AVOC_Tree_Camo_d.dds" destination="Textures\SetDressing\DuffleBag\DuffleBag_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Black Fabric">
+							<description>
+								<![CDATA[Pick this option for the Black Fabric texture.]]>
+							</description>
+							<image path="FOMod\images\DuffleBags\black_fabric.png"/>
+							<files>
+								<file source="Textures\DuffleBags\WD_AVOC_Black_Fabric_d.dds" destination="Textures\SetDressing\DuffleBag\DuffleBag_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Green Denim">
+							<description>
+								<![CDATA[Pick this option for the Green Denim texture.]]>
+							</description>
+							<image path="FOMod\images\DuffleBags\green_denim.png"/>
+							<files>
+								<file source="Textures\DuffleBags\WD_AVOC_Green_Denim_d.dds" destination="Textures\SetDressing\DuffleBag\DuffleBag_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Brown Leather">
+							<description>
+								<![CDATA[Pick this option for the Brown Leather texture.]]>
+							</description>
+							<image path="FOMod\images\DuffleBags\brown_leather.png"/>
+							<files>
+								<file source="Textures\DuffleBags\WD_AVOC_Brown_Leather_d.dds" destination="Textures\SetDressing\DuffleBag\DuffleBag_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Funky Leaves">
+							<description>
+								<![CDATA[Pick this option for the Funky Leaves texture.]]>
+							</description>
+							<image path="FOMod\images\DuffleBags\funky_leaves.png"/>
+							<files>
+								<file source="Textures\DuffleBags\WD_AVOC_Funky_Leaves_d.dds" destination="Textures\SetDressing\DuffleBag\DuffleBag_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Green Camo">
+							<description>
+								<![CDATA[Pick this option for the Green Camo texture.]]>
+							</description>
+							<image path="FOMod\images\DuffleBags\green_camo.png"/>
+							<files>
+								<file source="Textures\DuffleBags\WD_AVOC_Green_Camo_d.dds" destination="Textures\SetDressing\DuffleBag\DuffleBag_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Nuka Girl">
+							<description>
+								<![CDATA[Pick this option for the Nuka Girl texture.]]>
+							</description>
+							<image path="FOMod\images\DuffleBags\nuka_girl.png"/>
+							<files>
+								<file source="Textures\DuffleBags\WD_AVOC_Nuka_Girl_d.dds" destination="Textures\SetDressing\DuffleBag\DuffleBag_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Pink Camo">
+							<description>
+								<![CDATA[Pick this option for the Pink Camo texture.]]>
+							</description>
+							<image path="FOMod\images\DuffleBags\pink_camo.png"/>
+							<files>
+								<file source="Textures\DuffleBags\WD_AVOC_Pink_Camo_d.dds" destination="Textures\SetDressing\DuffleBag\DuffleBag_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Tapestry">
+							<description>
+								<![CDATA[Pick this option for the Tapestry texture.]]>
+							</description>
+							<image path="FOMod\images\DuffleBags\tapestry.png"/>
+							<files>
+								<file source="Textures\DuffleBags\WD_AVOC_Tapestry_d.dds" destination="Textures\SetDressing\DuffleBag\DuffleBag_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Thin Stripes">
+							<description>
+								<![CDATA[Pick this option for the Thin Stripes texture.]]>
+							</description>
+							<image path="FOMod\images\DuffleBags\thin_stripes.png"/>
+							<files>
+								<file source="Textures\DuffleBags\WD_AVOC_Thin_Stripes_d.dds" destination="Textures\SetDressing\DuffleBag\DuffleBag_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Metal Box Texture Options">
+			<optionalFileGroups>
+				<group name="Metal Box Textures" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="Vanilla">
+							<description>
+								<![CDATA[Pick this option for the Vanilla texture (no texture swap).]]>
+							</description>
+							<files>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Blue and White">
+							<description>
+								<![CDATA[Pick this option for the Blue & White texture.]]>
+							</description>
+							<image path="FOMod\images\MetalBoxes\blue_white.png"/>
+							<files>
+								<file source="Textures\MetalBoxes\WD_AVOC_Blue_White_d.dds" destination="Textures\SetDressing\MetalBox\MetalBox_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						
+						<plugin name="Blue and Yellow">
+							<description>
+								<![CDATA[Pick this option for the Blue & Yellow texture.]]>
+							</description>
+							<image path="FOMod\images\MetalBoxes\blue_yellow.png"/>
+							<files>
+								<file source="Textures\MetalBoxes\WD_AVOC_Blue_Yellow_d.dds" destination="Textures\SetDressing\MetalBox\MetalBox_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Dark Metal">
+							<description>
+								<![CDATA[Pick this option for the Dark Metal texture.]]>
+							</description>
+							<image path="FOMod\images\MetalBoxes\dark_metal.png"/>
+							<files>
+								<file source="Textures\MetalBoxes\WD_AVOC_Dark_Metal_d.dds" destination="Textures\SetDressing\MetalBox\MetalBox_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Green Copper">
+							<description>
+								<![CDATA[Pick this option for the Green Copper texture.]]>
+							</description>
+							<image path="FOMod\images\MetalBoxes\green_copper.png"/>
+							<files>
+								<file source="Textures\MetalBoxes\WD_AVOC_Green_Copper_d.dds" destination="Textures\SetDressing\MetalBox\MetalBox_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Green and Red">
+							<description>
+								<![CDATA[Pick this option for the Green & Red texture.]]>
+							</description>
+							<image path="FOMod\images\MetalBoxes\green_red.png"/>
+							<files>
+								<file source="Textures\MetalBoxes\WD_AVOC_Green_Red_d.dds" destination="Textures\SetDressing\MetalBox\MetalBox_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Old and Rusty">
+							<description>
+								<![CDATA[Pick this option for the Old & Rusty texture.]]>
+							</description>
+							<image path="FOMod\images\MetalBoxes\old_rusty.png"/>
+							<files>
+								<file source="Textures\MetalBoxes\WD_AVOC_Old_Rusty_d.dds" destination="Textures\SetDressing\MetalBox\MetalBox_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Pink Flecks">
+							<description>
+								<![CDATA[Pick this option for the Pink Flecks texture.]]>
+							</description>
+							<image path="FOMod\images\MetalBoxes\pink_flecks.png"/>
+							<files>
+								<file source="Textures\MetalBoxes\WD_AVOC_Pink_Flecks_d.dds" destination="Textures\SetDressing\MetalBox\MetalBox_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Red Painted">
+							<description>
+								<![CDATA[Pick this option for the Red Painted texture.]]>
+							</description>
+							<image path="FOMod\images\MetalBoxes\red_painted.png"/>
+							<files>
+								<file source="Textures\MetalBoxes\WD_AVOC_Red_Painted_d.dds" destination="Textures\SetDressing\MetalBox\MetalBox_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="White Painted">
+							<description>
+								<![CDATA[Pick this option for the White Painted texture.]]>
+							</description>
+							<image path="FOMod\images\MetalBoxes\white_painted.png"/>
+							<files>
+								<file source="Textures\MetalBoxes\WD_AVOC_White_Paint_d.dds" destination="Textures\SetDressing\MetalBox\MetalBox_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Yellow Painted">
+							<description>
+								<![CDATA[Pick this option for the Yellow Painted texture.]]>
+							</description>
+							<image path="FOMod\images\MetalBoxes\yellow_painted.png"/>
+							<files>
+								<file source="Textures\MetalBoxes\WD_AVOC_Yellow_Paint_d.dds" destination="Textures\SetDressing\MetalBox\MetalBox_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Wood Crate Texture Options">
+			<optionalFileGroups>
+				<group name="Wood Crate Textures" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="Vanilla">
+							<description>
+								<![CDATA[Pick this option for the Vanilla texture (no texture swap).]]>
+							</description>
+							<files>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Blue Painted">
+							<description>
+								<![CDATA[Pick this option for the Blue Painted texture.]]>
+							</description>
+							<image path="FOMod\images\WoodCrates\blue_painted.png"/>
+							<files>
+								<file source="Textures\WoodCrates\WD_AVOC_Blue_Painted_d.dds" destination="Textures\SetDressing\WoodCrate\WoodCrate_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Colorful">
+							<description>
+								<![CDATA[Pick this option for the Colorful texture.]]>
+							</description>
+							<image path="FOMod\images\WoodCrates\colorful.png"/>
+							<files>
+								<file source="Textures\WoodCrates\WD_AVOC_Colorful_d.dds" destination="Textures\SetDressing\WoodCrate\WoodCrate_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Dark Stains">
+							<description>
+								<![CDATA[Pick this option for the Dark Stains texture.]]>
+							</description>
+							<image path="FOMod\images\WoodCrates\dark_stains.png"/>
+							<files>
+								<file source="Textures\WoodCrates\WD_AVOC_Dark_Stains_d.dds" destination="Textures\SetDressing\WoodCrate\WoodCrate_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Faded Pastel">
+							<description>
+								<![CDATA[Pick this option for the Faded Pastel texture.]]>
+							</description>
+							<image path="FOMod\images\WoodCrates\faded_pastel.png"/>
+							<files>
+								<file source="Textures\WoodCrates\WD_AVOC_Faded_Pastel_d.dds" destination="Textures\SetDressing\WoodCrate\WoodCrate_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Faded Red">
+							<description>
+								<![CDATA[Pick this option for the Faded Red texture.]]>
+							</description>
+							<image path="FOMod\images\WoodCrates\faded_red.png"/>
+							<files>
+								<file source="Textures\WoodCrates\WD_AVOC_Faded_Red_d.dds" destination="Textures\SetDressing\WoodCrate\WoodCrate_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Green Stain">
+							<description>
+								<![CDATA[Pick this option for the Green Stain texture.]]>
+							</description>
+							<image path="FOMod\images\WoodCrates\green_stain.png"/>
+							<files>
+								<file source="Textures\WoodCrates\WD_AVOC_Green_Stain_d.dds" destination="Textures\SetDressing\WoodCrate\WoodCrate_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Many Stains">
+							<description>
+								<![CDATA[Pick this option for the Many Stains texture.]]>
+							</description>
+							<image path="FOMod\images\WoodCrates\many_stains.png"/>
+							<files>
+								<file source="Textures\WoodCrates\WD_AVOC_Many_Stains_d.dds" destination="Textures\SetDressing\WoodCrate\WoodCrate_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Paint Splash">
+							<description>
+								<![CDATA[Pick this option for the Paint Splash texture.]]>
+							</description>
+							<image path="FOMod\images\WoodCrates\paint_splash.png"/>
+							<files>
+								<file source="Textures\WoodCrates\WD_AVOC_Paint_Splash_d.dds" destination="Textures\SetDressing\WoodCrate\WoodCrate_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Red Splattered">
+							<description>
+								<![CDATA[Pick this option for the Red Splattered texture.]]>
+							</description>
+							<image path="FOMod\images\WoodCrates\red_splattered.png"/>
+							<files>
+								<file source="Textures\WoodCrates\WD_AVOC_Red_Splattered_d.dds" destination="Textures\SetDressing\WoodCrate\WoodCrate_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Very Dark">
+							<description>
+								<![CDATA[Pick this option for the Very Dark texture.]]>
+							</description>
+							<image path="FOMod\images\WoodCrates\very_dark.png"/>
+							<files>
+								<file source="Textures\WoodCrates\WD_AVOC_Very_Dark_d.dds" destination="Textures\SetDressing\WoodCrate\WoodCrate_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Weathered">
+							<description>
+								<![CDATA[Pick this option for the Weathered texture.]]>
+							</description>
+							<image path="FOMod\images\WoodCrates\weathered.png"/>
+							<files>
+								<file source="Textures\WoodCrates\WD_AVOC_Weathered_d.dds" destination="Textures\SetDressing\WoodCrate\WoodCrate_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Yellow Painted">
+							<description>
+								<![CDATA[Pick this option for the Yellow Painted texture.]]>
+							</description>
+							<image path="FOMod\images\WoodCrates\yellow_painted.png"/>
+							<files>
+								<file source="Textures\WoodCrates\WD_AVOC_Yellow_Painted_d.dds" destination="Textures\SetDressing\WoodCrate\WoodCrate_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Footlocker Texture Options">
+			<optionalFileGroups>
+				<group name="Footlocker Textures" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="Vanilla">
+							<description>
+								<![CDATA[Pick this option for the Vanilla texture (no texture swap).]]>
+							</description>
+							<files>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Blue Plywood">
+							<description>
+								<![CDATA[Pick this option for the Blue Plywood texture.]]>
+							</description>
+							<image path="FOMod\images\Footlockers\blue_plywood.png"/>
+							<files>
+								<file source="Textures\Footlockers\WD_AVOC_Blue_Plywood_d.dds" destination="Textures\Props\FootLocker01_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Cracked Lavender">
+							<description>
+								<![CDATA[Pick this option for the Cracked Lavender texture.]]>
+							</description>
+							<image path="FOMod\images\Footlockers\cracked_lavender.png"/>
+							<files>
+								<file source="Textures\Footlockers\WD_AVOC_Cracked_Lavender_d.dds" destination="Textures\Props\FootLocker01_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Cracked Paint">
+							<description>
+								<![CDATA[Pick this option for the Cracked Paint texture.]]>
+							</description>
+							<image path="FOMod\images\Footlockers\cracked_paint.png"/>
+							<files>
+								<file source="Textures\Footlockers\WD_AVOC_Cracked_Paint_d.dds" destination="Textures\Props\FootLocker01_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Cracked White">
+							<description>
+								<![CDATA[Pick this option for the Cracked White texture.]]>
+							</description>
+							<image path="FOMod\images\Footlockers\cracked_white.png"/>
+							<files>
+								<file source="Textures\Footlockers\WD_AVOC_Cracked_White_d.dds" destination="Textures\Props\FootLocker01_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Dark Blue">
+							<description>
+								<![CDATA[Pick this option for the Dark Blue texture.]]>
+							</description>
+							<image path="FOMod\images\Footlockers\dark_blue.png"/>
+							<files>
+								<file source="Textures\Footlockers\WD_AVOC_Dark_Blue_d.dds" destination="Textures\Props\FootLocker01_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Faded Green">
+							<description>
+								<![CDATA[Pick this option for the Faded Green texture.]]>
+							</description>
+							<image path="FOMod\images\Footlockers\faded_green.png"/>
+							<files>
+								<file source="Textures\Footlockers\WD_AVOC_Faded_Green_d.dds" destination="Textures\Props\FootLocker01_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Flower Stamp">
+							<description>
+								<![CDATA[Pick this option for the Flower Stamp texture.]]>
+							</description>
+							<image path="FOMod\images\Footlockers\flower_stamp.png"/>
+							<files>
+								<file source="Textures\Footlockers\WD_AVOC_Flower_Stamp_d.dds" destination="Textures\Props\FootLocker01_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Pinkish">
+							<description>
+								<![CDATA[Pick this option for the Pinkish texture.]]>
+							</description>
+							<image path="FOMod\images\Footlockers\pinkish.png"/>
+							<files>
+								<file source="Textures\Footlockers\WD_AVOC_Pinkish_d.dds" destination="Textures\Props\FootLocker01_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Redish">
+							<description>
+								<![CDATA[Pick this option for the Redish texture.]]>
+							</description>
+							<image path="FOMod\images\Footlockers\redish.png"/>
+							<files>
+								<file source="Textures\Footlockers\WD_AVOC_Redish_d.dds" destination="Textures\Props\FootLocker01_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Turquoise">
+							<description>
+								<![CDATA[Pick this option for the Turquoise texture.]]>
+							</description>
+							<image path="FOMod\images\Footlockers\turquoise.png"/>
+							<files>
+								<file source="Textures\Footlockers\WD_AVOC_Turquoise_d.dds" destination="Textures\Props\FootLocker01_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Yellow Plywood">
+							<description>
+								<![CDATA[Pick this option for the Yellow Plywood texture.]]>
+							</description>
+							<image path="FOMod\images\Footlockers\yellow_plywood.png"/>
+							<files>
+								<file source="Textures\Footlockers\WD_AVOC_Yellow_Plywood_d.dds" destination="Textures\Props\FootLocker01_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Toolbox Texture Options">
+			<optionalFileGroups>
+				<group name="Toolbox Textures" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="Vanilla">
+							<description>
+								<![CDATA[Pick this option for the Vanilla texture (no texture swap).]]>
+							</description>
+							<files>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Blue Rusty">
+							<description>
+								<![CDATA[Pick this option for the Blue Rusty texture.]]>
+							</description>
+							<image path="FOMod\images\Toolboxes\blue_rusty.png"/>
+							<files>
+								<file source="Textures\Toolboxes\WD_AVOC_Blue_Rusty_d.dds" destination="Textures\SetDressing\Toolbox\toolbox_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Bright Orange">
+							<description>
+								<![CDATA[Pick this option for the Bright Orange texture.]]>
+							</description>
+							<image path="FOMod\images\Toolboxes\bright_orange.png"/>
+							<files>
+								<file source="Textures\Toolboxes\WD_AVOC_Bright_Orange_d.dds" destination="Textures\SetDressing\Toolbox\toolbox_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Dark Green Paint">
+							<description>
+								<![CDATA[Pick this option for the Dark Green Paint texture.]]>
+							</description>
+							<image path="FOMod\images\Toolboxes\dark_green_paint.png"/>
+							<files>
+								<file source="Textures\Toolboxes\WD_AVOC_Dark_Green_Paint_d.dds" destination="Textures\SetDressing\Toolbox\toolbox_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Dark Metal">
+							<description>
+								<![CDATA[Pick this option for the Dark Metal texture.]]>
+							</description>
+							<image path="FOMod\images\Toolboxes\dark_metal.png"/>
+							<files>
+								<file source="Textures\Toolboxes\WD_AVOC_Dark_Metal_d.dds" destination="Textures\SetDressing\Toolbox\toolbox_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Dark Rusty Red">
+							<description>
+								<![CDATA[Pick this option for the Dark Rusty Red texture.]]>
+							</description>
+							<image path="FOMod\images\Toolboxes\dark_rusty_red.png"/>
+							<files>
+								<file source="Textures\Toolboxes\WD_AVOC_Dark_Rusty_Red_d.dds" destination="Textures\SetDressing\Toolbox\toolbox_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Green">
+							<description>
+								<![CDATA[Pick this option for the Green texture.]]>
+							</description>
+							<image path="FOMod\images\Toolboxes\green.png"/>
+							<files>
+								<file source="Textures\Toolboxes\WD_AVOC_Green_d.dds" destination="Textures\SetDressing\Toolbox\toolbox_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Orange">
+							<description>
+								<![CDATA[Pick this option for the Orange texture.]]>
+							</description>
+							<image path="FOMod\images\Toolboxes\orange.png"/>
+							<files>
+								<file source="Textures\Toolboxes\WD_AVOC_Orange_d.dds" destination="Textures\SetDressing\Toolbox\toolbox_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Red">
+							<description>
+								<![CDATA[Pick this option for the Red texture.]]>
+							</description>
+							<image path="FOMod\images\Toolboxes\red.png"/>
+							<files>
+								<file source="Textures\Toolboxes\WD_AVOC_Red_d.dds" destination="Textures\SetDressing\Toolbox\toolbox_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Red Paint">
+							<description>
+								<![CDATA[Pick this option for the Red Paint texture.]]>
+							</description>
+							<image path="FOMod\images\Toolboxes\red_paint.png"/>
+							<files>
+								<file source="Textures\Toolboxes\WD_AVOC_Red_Paint_d.dds" destination="Textures\SetDressing\Toolbox\toolbox_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Yellow Fiberglass">
+							<description>
+								<![CDATA[Pick this option for the Yellow Fiberglass texture.]]>
+							</description>
+							<image path="FOMod\images\Toolboxes\yellow_fiberglass.png"/>
+							<files>
+								<file source="Textures\Toolboxes\WD_AVOC_Yellow_Fiberglass_d.dds" destination="Textures\SetDressing\Toolbox\toolbox_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Large Toolbox Texture Options">
+			<optionalFileGroups>
+				<group name="Large Toolbox Textures" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="Vanilla">
+							<description>
+								<![CDATA[Pick this option for the Vanilla texture (no texture swap).]]>
+							</description>
+							<files>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Blue and Orange">
+							<description>
+								<![CDATA[Pick this option for the Blue & Orange texture.]]>
+							</description>
+							<image path="FOMod\images\ToolChests\blue_orange.png"/>
+							<files>
+								<file source="Textures\ToolChests\WD_AVOC_Blue_Orange_d.dds" destination="Textures\SetDressing\Toolbox\ToolboxLarge_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Blue Orange No Papers">
+							<description>
+								<![CDATA[Pick this option for the Blue Orange No Papers texture.]]>
+							</description>
+							<image path="FOMod\images\ToolChests\blue_orange_nopapers.png"/>
+							<files>
+								<file source="Textures\ToolChests\WD_AVOC_Blue_Orange_NoPapers_d.dds" destination="Textures\SetDressing\Toolbox\ToolboxLarge_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Blue and White">
+							<description>
+								<![CDATA[Pick this option for the Blue & White texture.]]>
+							</description>
+							<image path="FOMod\images\ToolChests\blue_white.png"/>
+							<files>
+								<file source="Textures\ToolChests\WD_AVOC_Blue_White_d.dds" destination="Textures\SetDressing\Toolbox\ToolboxLarge_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Blue White No Papers">
+							<description>
+								<![CDATA[Pick this option for the Blue White No Papers texture.]]>
+							</description>
+							<image path="FOMod\images\ToolChests\blue_white_nopapers.png"/>
+							<files>
+								<file source="Textures\ToolChests\WD_AVOC_Blue_White_NoPapers_d.dds" destination="Textures\SetDressing\Toolbox\ToolboxLarge_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Red">
+							<description>
+								<![CDATA[Pick this option for the Red texture.]]>
+							</description>
+							<image path="FOMod\images\ToolChests\red.png"/>
+							<files>
+								<file source="Textures\ToolChests\WD_AVOC_Red_d.dds" destination="Textures\SetDressing\Toolbox\ToolboxLarge_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Red No Papers">
+							<description>
+								<![CDATA[Pick this option for the Red No Papers texture.]]>
+							</description>
+							<image path="FOMod\images\ToolChests\red_nopapers.png"/>
+							<files>
+								<file source="Textures\ToolChests\WD_AVOC_Red_NoPapers_d.dds" destination="Textures\SetDressing\Toolbox\ToolboxLarge_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="White">
+							<description>
+								<![CDATA[Pick this option for the White texture.]]>
+							</description>
+							<image path="FOMod\images\ToolChests\white.png"/>
+							<files>
+								<file source="Textures\ToolChests\WD_AVOC_White_d.dds" destination="Textures\SetDressing\Toolbox\ToolboxLarge_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="White No Papers">
+							<description>
+								<![CDATA[Pick this option for the White No Papers texture.]]>
+							</description>
+							<image path="FOMod\images\ToolChests\white_nopapers.png"/>
+							<files>
+								<file source="Textures\ToolChests\WD_AVOC_White_NoPapers_d.dds" destination="Textures\SetDressing\Toolbox\toolbox_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Bottlecap Tin Texture Options">
+			<optionalFileGroups>
+				<group name="Bottlecap Tin Textures" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="Vanilla">
+							<description>
+								<![CDATA[Pick this option for the Vanilla texture (no texture swap).]]>
+							</description>
+							<files>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Don't Touch">
+							<description>
+								<![CDATA[Pick this option for the Don't Touch texture.]]>
+							</description>
+							<image path="FOMod\images\BottlecapTin\dont_touch.png"/>
+							<files>
+								<file source="Textures\BottlecapTin\WD_AVOC_Dont_Touch_d.dds" destination="Textures\Props\BottleCapTin_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Get Your Own">
+							<description>
+								<![CDATA[Pick this option for the Get Your Own texture.]]>
+							</description>
+							<image path="FOMod\images\BottlecapTin\get_your_own.png"/>
+							<files>
+								<file source="Textures\BottlecapTin\WD_AVOC_Get_Your_Own_d.dds" destination="Textures\Props\BottleCapTin_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="GYO Frank">
+							<description>
+								<![CDATA[Pick this option for the GYO Frank texture.]]>
+							</description>
+							<image path="FOMod\images\BottlecapTin\gyo_frank.png"/>
+							<files>
+								<file source="Textures\BottlecapTin\WD_AVOC_GYO_Frank_d.dds" destination="Textures\Props\BottleCapTin_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Hands Off">
+							<description>
+								<![CDATA[Pick this option for the Hands Off texture.]]>
+							</description>
+							<image path="FOMod\images\BottlecapTin\hands_off.png"/>
+							<files>
+								<file source="Textures\BottlecapTin\WD_AVOC_Hands_Off_d.dds" destination="Textures\Props\BottleCapTin_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Keep Out">
+							<description>
+								<![CDATA[Pick this option for the Keep Out texture.]]>
+							</description>
+							<image path="FOMod\images\BottlecapTin\keep_out.png"/>
+							<files>
+								<file source="Textures\BottlecapTin\WD_AVOC_Keep_Out_d.dds" destination="Textures\Props\BottleCapTin_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Warning Rads">
+							<description>
+								<![CDATA[Pick this option for the Warning Rads texture.]]>
+							</description>
+							<image path="FOMod\images\BottlecapTin\warning_rads.png"/>
+							<files>
+								<file source="Textures\BottlecapTin\WD_AVOC_Warning_Rads_d.dds" destination="Textures\Props\BottleCapTin_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Nuka Cola">
+							<description>
+								<![CDATA[Pick this option for the Nuka Cola texture.]]>
+							</description>
+							<image path="FOMod\images\BottlecapTin\nuka_cola.png"/>
+							<files>
+								<file source="Textures\BottlecapTin\WD_AVOC_Nuka_Cola_d.dds" destination="Textures\Props\BottleCapTin_d.dds" priority="0"/>
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+	</installSteps>
+</config>
